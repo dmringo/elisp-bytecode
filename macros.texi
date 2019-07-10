@@ -33,8 +33,8 @@
 @c How we format individual instructions.
 @macro SubSecInstruction{name, opcode}
 @page
-@majorheading \name\ (\opcode\)
 @node \name\
+@majorheading \name\ (\opcode\)
 @unnumberedsubsec @code{\name\} (\opcode\)
 @kindex \name\
 @end macro
@@ -47,7 +47,6 @@
 
 @macro SubSubSecInstruction{name, opcode}
 @page
-@majorheading \name\ (\opcode\)
 @node \name\
 @unnumberedsubsubsec @code{\name\} (\opcode\)
 @kindex \name\

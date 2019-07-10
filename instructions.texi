@@ -2838,7 +2838,7 @@ Constants Vector: ["b"]
 
 @FirstSubSubSecInstruction{current-buffer, 112}
 
-Call @code{current-buffer}.
+Call @code{current-buffer}. @xref{Current Buffer, , The Current Buffer, elisp, The GNU Emacs Lisp Reference Manual}, for a description of this Emacs Lisp function.
 
 @table @strong
 @item Implements:
@@ -2863,7 +2863,7 @@ PC  Byte  Instruction
 
 @SubSubSecInstruction{set-buffer, 113}
 
-Call @code{set-buffer} with TOS.
+Call @code{set-buffer} with TOS. @xref{Current Buffer, , The Current Buffer, elisp, The GNU Emacs Lisp Reference Manual}, for a description of this Emacs Lisp function.
 
 @table @strong
 @item Implements:
@@ -2890,7 +2890,8 @@ Constants Vector: ["*scratch"]
 
 @SubSubSecInstruction{save-current-buffer-1, 114}
 
-Call @code{save-current-buffer}.
+Call @code{save-current-buffer}. @xref{Current Buffer, , The Current Buffer, elisp, The GNU Emacs Lisp Reference Manual}, for a description of this Emacs Lisp function.
+
 
 Replaces older @code{save-current-buffer}. @xref{save-current-buffer}.
 
@@ -2928,7 +2929,7 @@ Constants Vector: [prog 5]
 
 @SubSubSecInstruction{buffer-substring, 123}
 
-Call @code{buffer-substring} with two stack arguments.
+Call @code{buffer-substring} with two stack arguments. @xref{Buffer Contents, , Examining Buffer Contents, elisp, The GNU Emacs Lisp Reference Manual}, for a description of this Emacs Lisp function.
 
 @table @strong
 @item Implements:
