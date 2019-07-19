@@ -71,12 +71,15 @@ ecosystem, Emacs Lisp is not and never has been a speedy language compared
 to say, C, C++, Go, Rust or Java. And that's where LAP and bytecode
 come in.
 
-As stated in a commment in @code{byte-opt.el} added circa 1996:
+As stated in a commment in @code{byte-opt.el}, added from Lucid Emacs
+circa 1992:
 @quotation
 No matter how hard you try, you can't make a racehorse out of a pig.
 
 You can, however, make a faster pig.
-@author Eric Naggum
+@author jwz (Jamie Zawinski)
+@footnote{This seems to be a adaptation of dialogue from John
+Steinbeck's @cite{East of Eden}}
 @end quotation
 
 Emacs Lisp bytecode is the custom lower-level language used by the Emacs
